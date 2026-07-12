@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.qr-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    transition: 0.2s;
+}
+
+.qr-thumb:hover {
+    transform: scale(1.1);
+}
